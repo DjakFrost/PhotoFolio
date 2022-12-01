@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    background-color: aquamarine;
+}
+
+.photopolio__header{
+}
+.logo{
+
+}
+
+.border{
+    width: 220px;
+    height: 220px;
+    background-color: #7baff0;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    margin: 30px auto 0
+}
+.img{
+    width: 107px;
+    height: 76px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.text{
+    font-family: 'Mrs Eaves';
+    font-size: 46.3px;
+    line-height: 50px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ffffff;
+    position: relative;
+}
