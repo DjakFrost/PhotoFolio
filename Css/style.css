@@ -14,23 +14,32 @@ body{
     height: 220px;
     background-color: #7baff0;
     border-radius: 100%;
-    position: relative;
-    text-align: center;
-    margin: 30px auto 0
+    margin: 30px auto 0;
 }
-.img{
-    width: 107px;
-    height: 76px;
-    background-color: #ffffff;
-    position: relative;
+img{
+    margin: 40px 0px 0px 55px;
 }
 
 .text{
     font-family: 'Mrs Eaves';
-    font-size: 46.3px;
+    font-size: 35px;
     line-height: 50px;
     font-weight: 400;
     font-style: italic;
     color: #ffffff;
+    text-align: center;
+}
+
+.photofoio__title{
+
+}
+
+.title{
+    font-family: 'Segoe WP';
+    font-size: 50.7px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #ffffff;
     position: relative;
+    text-align: center;
 }
