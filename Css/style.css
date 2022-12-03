@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
 body{
-    background-color: aquamarine;
+    background-color: dimgrey;
 }
 
 .photopolio__header{
@@ -35,11 +36,21 @@ img{
 }
 
 .title{
-    font-family: 'Segoe WP';
-    font-size: 50.7px;
+    font-family: 'Lora';
+    font-size: 28px;
     line-height: 23px;
-    font-weight: 300;
+    font-weight: 400;
     color: #ffffff;
     position: relative;
     text-align: center;
 }
+
+.photofolio__text{
+    font-family: 'Segoe UI Symbol';
+    font-size: 16.7px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 18px 100px;
+}
+
