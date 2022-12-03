@@ -6,33 +6,51 @@
 .column__left {
     border: 2px solid bisque;
     flex: 33%;
-    margin: 90px 0 0 30px;
+    margin: 90px 30px 0 30px;
 }
-.vertical__line{
+
+.vertical__line {
     background-color: white;
     border: 1px solid rosybrown;
     min-width: 10px;
     border-radius: 10px;
 }
+
 .column__right {
     border: 2px solid bisque;
     flex: 33%;
-    margin: 0px 30px 0px 0px;
+    margin: 0px 30px 0px 20px;
 }
 
 .column__body {
     background-color: gray;
     border: 1px solid darkslateblue;
     margin-bottom: 90px;
-
+    position: relative;
 }
 
 .column__title {
     margin: 10px 20px;
     text-align: left;
+    color: black;
 }
 
 .title {
 
+}
+.column__body__img{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.column__body__img img{
+    height: 100%;
+    width: auto;
+}
+
+.column__photo {
+    margin-left: 30px;
 }
 
