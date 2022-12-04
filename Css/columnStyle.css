@@ -1,6 +1,7 @@
 .photofolio__column {
     border: 2px solid royalblue;
     display: flex;
+    margin: 0 100px 0;
 }
 
 .column__left {
@@ -39,10 +40,12 @@
 
 }
 .column__body__img{
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    background-image: url("../Assets/Image/shape_6_15.png");
+    margin-left: -20px;
+    /*overflow: hidden;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
 }
 
 .column__body__img img{

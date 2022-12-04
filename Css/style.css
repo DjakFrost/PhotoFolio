@@ -1,27 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
-body{
-    background-color: dimgrey;
+
+body {
+    background-image: url("../Assets/Image/layer_1_3.png");
+    width: 100%;
+    height: auto;
 }
 
-.photopolio__header{
-}
-.logo{
+.photopolio__header {
 
 }
 
-.border{
+.logo {
+
+}
+
+.border {
     width: 220px;
     height: 220px;
     background-color: #7baff0;
     border-radius: 100%;
     margin: 30px auto 0;
 }
-.photopolio_logo{
+
+.photopolio_logo {
     margin: 40px 0px 0px 55px;
 }
 
-.text{
+.text {
     font-family: 'Mrs Eaves';
     font-size: 35px;
     line-height: 50px;
@@ -31,11 +37,11 @@ body{
     text-align: center;
 }
 
-.photofoio__title{
+.photofoio__title {
 
 }
 
-.title{
+.title {
     font-family: 'Lora';
     font-size: 28px;
     line-height: 23px;
@@ -45,7 +51,7 @@ body{
     text-align: center;
 }
 
-.photofolio__text{
+.photofolio__text {
     font-family: 'Segoe UI Symbol';
     font-size: 16.7px;
     line-height: 23px;
